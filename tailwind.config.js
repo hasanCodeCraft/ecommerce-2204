@@ -5,7 +5,21 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'dm': ['DM Sans']
+      },
+      fontSize: {
+        '25': '25px',
+        '39': '39px',
+        '49': '49px',
+      },
+      colors: {
+        'primary': '#262626',
+        'secondary': '#6D6D6D',
+        'gray': '#767676',
+      },
+    },
   },
   plugins: [],
 }
