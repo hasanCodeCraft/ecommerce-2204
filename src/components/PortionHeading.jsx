@@ -2,7 +2,7 @@ import React from 'react'
 
 function PortionHeading({text,className}) {
   return (
-    <h5 className={`font-dm font-bold text-25 text-primary ${className}`}>{text}</h5>
+    <h5 className={`font-dm font-bold text-text25 text-primary ${className}`}>{text}</h5>
   )
 }
 

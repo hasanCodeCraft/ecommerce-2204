@@ -10,9 +10,9 @@ export default {
         'dm': ['DM Sans']
       },
       fontSize: {
-        '25': '25px',
-        '39': '39px',
-        '49': '49px',
+        'text25': '25px',
+        'text39': '39px',
+        'text49': '49px',
       },
       colors: {
         'primary': '#262626',

@@ -30,13 +30,13 @@ function App() {
 {/* <Image src={Logo} alt="logo" /> */}
 
 
-{/* 
-<PortionHeading text=" Portion Heading " className= "text-base"/> 
-*/}
+
+{/* <PortionHeading text=" Portion Heading " className= "text-base"/>  */}
 
 
 
-{/* <SubHeading text = "Sub Heading" className="text-49"/>  */}
+
+{/* <SubHeading text = "Sub Heading" className="text-text39"/>  */}
 
 
 
