@@ -7,12 +7,20 @@ import Image from './components/Image'
 import Logo from "./assets/logo.png"
 import Facility from './components/Facility'
 import Button from './components/Button'
+import Product from './Product'
+
 
 function App() {
   return (
     <>
+    <div className='w-96'>
+   
+      <Product/> 
+      <Product/> 
+      <Product/> 
 
-
+    
+    </div>
 
 
     
