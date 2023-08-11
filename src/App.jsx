@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Flex from './components/Flex'
 import List from './components/List'
 import SubHeading from './components/SubHeading'
@@ -8,20 +9,55 @@ import Logo from "./assets/logo.png"
 import Facility from './components/Facility'
 import Button from './components/Button'
 import Product from './Product'
+import "slick-carousel/slick/slick.css"; 
+import Slider from "react-slick";
+import PrevSlide from './components/PrevSlide'
+import NextSlide from "./components/NextSlide"
 
 
 function App() {
+
+  const settings = {
+
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    prevArrow: <PrevSlide />,
+    nextArrow: <NextSlide />,
+
+  }
+
   return (
     <>
-    <div className='w-96'>
-   
-      <Product/> 
-      <Product/> 
-      <Product/> 
+  
+  <Slider {...settings}>
 
-    
-    </div>
+   <div className='w-80'>
+    <Product/> 
+   </div>
+ 
+   <div className='w-80'>
+    <Product/> 
+   </div>
+ 
+   <div className='w-80'>
+    <Product/> 
+   </div>
+ 
+   <div className='w-80'>
+    <Product/> 
+   </div>
+ 
+   <div className='w-80'>
+    <Product/> 
+   </div>
+ 
+   <div className='w-80'>
+    <Product/> 
+   </div>
 
+  </Slider>
 
     
 {/* 

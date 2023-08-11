@@ -10,8 +10,8 @@ import IconAddCard from './components/Icon/IconAddCard'
 
 function Product() {
   return (
-    <>
-    <div className='relative group overflow-hidden'>
+    <div className='mx-5'>
+    <div className='relative group overflow-hidden '>
         <Image src={Product1} className="w-full"/>
         <Badge text="New"/>
 
@@ -32,12 +32,13 @@ function Product() {
         </div>
        
     </div>
-        <Flex className="justify-between items-center mt-4">
+
+    <Flex className="justify-between items-center mt-4">
            <PortionHeading text="Basic Crew Neck Tee"/>
            <p className='font-dm font-normal text-base text-gray'>$44.00</p>
-        </Flex>
+    </Flex>
 
-    </>
+    </div>
   )
 }
 
